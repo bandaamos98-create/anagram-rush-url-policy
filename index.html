@@ -131,6 +131,14 @@
             text-decoration: underline;
         }
         
+        .highlight {
+            background: #fef3c7;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #f59e0b;
+            margin: 20px 0;
+        }
+        
         footer {
             background: #f1f5f9;
             padding: 30px;
@@ -141,19 +149,10 @@
         }
         
         @media (max-width: 640px) {
-            header {
-                padding: 30px 20px;
-            }
-            main {
-                padding: 30px 20px;
-            }
-            header h1 {
-                font-size: 1.9rem;
-            }
-            .app-icon {
-                width: 70px;
-                height: 70px;
-            }
+            header { padding: 30px 20px; }
+            main { padding: 30px 20px; }
+            header h1 { font-size: 1.9rem; }
+            .app-icon { width: 70px; height: 70px; }
         }
     </style>
 </head>
@@ -177,10 +176,11 @@
                     <li><a href="#use">3. How We Use Your Information</a></li>
                     <li><a href="#thirdparty">4. Third-Party Services</a></li>
                     <li><a href="#sharing">5. Data Sharing</a></li>
-                    <li><a href="#security">6. Data Security</a></li>
-                    <li><a href="#children">7. Children’s Privacy</a></li>
-                    <li><a href="#changes">8. Changes to This Policy</a></li>
-                    <li><a href="#contact">9. Contact Us</a></li>
+                    <li><a href="#deletion">6. Account &amp; Data Deletion</a></li>
+                    <li><a href="#security">7. Data Security</a></li>
+                    <li><a href="#children">8. Children’s Privacy</a></li>
+                    <li><a href="#changes">9. Changes to This Policy</a></li>
+                    <li><a href="#contact">10. Contact Us</a></li>
                 </ul>
             </div>
             
@@ -189,7 +189,6 @@
                 <h2>1. Introduction</h2>
                 <p>Welcome to <strong>Anagram Rush</strong>, an engaging Android word puzzle game developed by Amos Banda.</p>
                 <p>This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the App.</p>
-                <p>By using the App, you agree to the practices described in this policy.</p>
                 <p class="effective-date">Effective Date: June 14, 2026</p>
             </section>
             
@@ -237,27 +236,57 @@
                 <p>Data is only shared with necessary service providers (e.g., Supabase) under strict confidentiality.</p>
             </section>
             
+            <!-- Account & Data Deletion -->
+            <section id="deletion">
+                <h2>6. Account &amp; Data Deletion</h2>
+                <p>Users can request deletion of their account and all associated data at any time.</p>
+                
+                <div class="highlight">
+                    <h3>What Data Will Be Deleted</h3>
+                    <ul>
+                        <li>Your email address and Supabase authentication account</li>
+                        <li>User ID and any linked identifiers</li>
+                        <li>All game progress, scores, and saved data</li>
+                    </ul>
+                    <p><strong>All data associated with your account will be permanently deleted.</strong></p>
+                </div>
+                
+                <h3>How to Request Deletion</h3>
+                <p>To request account deletion, please send an email from the registered email address associated with your account to:</p>
+                <p><strong>bandaamos98@gmail.com</strong></p>
+                <p><strong>Subject:</strong> Delete My Anagram Rush Account</p>
+                
+                <h3>Secure Account Verification</h3>
+                <p>You do <strong>not</strong> need to provide your password. Identity is verified using the email address linked to the account. We may send a confirmation email to verify ownership before proceeding.</p>
+                
+                <h3>Processing Time</h3>
+                <p>Deletion requests are processed within 7–14 days.</p>
+                
+                <h3>Data Storage</h3>
+                <p>Your data is stored in Supabase. Upon deletion, both authentication records and database records associated with your account are permanently removed.</p>
+            </section>
+            
             <!-- Data Security -->
             <section id="security">
-                <h2>6. Data Security</h2>
+                <h2>7. Data Security</h2>
                 <p>We use reasonable security measures to protect your data, but no system is completely secure.</p>
             </section>
             
             <!-- Children’s Privacy -->
             <section id="children">
-                <h2>7. Children’s Privacy</h2>
+                <h2>8. Children’s Privacy</h2>
                 <p>Anagram Rush is not intended for children under 13. We do not knowingly collect data from children under 13.</p>
             </section>
             
             <!-- Changes -->
             <section id="changes">
-                <h2>8. Changes to This Policy</h2>
+                <h2>9. Changes to This Policy</h2>
                 <p>We may update this policy occasionally. Continued use of the App after changes constitutes acceptance of the new policy.</p>
             </section>
             
             <!-- Contact -->
             <section id="contact">
-                <h2>9. Contact Us</h2>
+                <h2>10. Contact Us</h2>
                 <p>If you have any questions, please contact us:</p>
                 <p><strong>Developer:</strong> Amos Banda</p>
                 <p><strong>Email:</strong> <a href="mailto:bandaamos98@gmail.com">bandaamos98@gmail.com</a></p>
